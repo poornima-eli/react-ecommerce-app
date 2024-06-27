@@ -1,4 +1,4 @@
-import Home from "./Components/Home";
+import Home from "./Components/Home.jsx";
 import Product from "./Components/Product";
 import Cart from "./Components/Cart";
 import ProductInfo from "./Components/ProductInfo";

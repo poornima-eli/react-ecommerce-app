@@ -5,6 +5,7 @@ import "../Styles/Cart.css";
 import { Link } from "react-router-dom";
 import { FaTrashAlt } from "react-icons/fa";
 import dataProducts from "../Data";
+import Footer from "./Footer";
 
 export default function Cart() {
   const [cartData, setCartData] = useState({});
@@ -180,7 +181,7 @@ return (
           </div>
 
           <div className="col-lg-5 checkout">
-            <div className="card bg-primary text-white rounded-2 needsadow">
+            <div className="card text-white rounded-2 needsadow">
               <div className="card-body">
                 <div className="d-flex justify-content-between align-items-center mb-2">
                   <h4 className="mb-0 dts">Card details</h4>
@@ -224,7 +225,7 @@ return (
                       id="card-number"
                       className="form-control form-control-sm"
                       size="17"
-                      placeholder="1234 5678 9012 3457"
+                      placeholder="1234 5678 9011 1234"
                       minLength="19"
                       maxLength="19"
                       autoComplete="off"
@@ -303,6 +304,7 @@ return (
           </div>
         </div>
       )}
+      <Footer />
     </>
   );
 }

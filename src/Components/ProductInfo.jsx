@@ -182,7 +182,7 @@ const ProductInfo = ({ data }) => {
           margin: "10px 20px",
         }}
       >
-        You might be interested in {product.company}
+        You might be interested in the products
       </h5>
       <div
         className="recByBrand"

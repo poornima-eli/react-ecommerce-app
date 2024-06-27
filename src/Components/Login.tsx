@@ -82,11 +82,12 @@ const inputField = () => {
           alignItems: 'center',
           justifyContent: 'center',
           backgroundColor: '#F0E68C',
+          paddingRight:'50px'
         }}
       >
         <span style={{ color: '#556B2F', fontWeight: 600, padding: '10px' }}>
           <i>
-            <h2>Welcome to Chakra's E-commerce Site </h2>
+            <h2>Welcome to Chakra's Women's Shopping </h2>
               <h5>your one-stop shop for all your needs</h5>
             </i>
             </span>
@@ -129,7 +130,7 @@ const inputField = () => {
               >
                 <img
                   src=
-                  "./src/Images/ecommerce.jpeg"
+                  "https://e7.pngegg.com/pngimages/811/646/png-clipart-web-development-e-commerce-shopping-cart-software-online-shopping-business-web-design-retail.png"
                   alt='login-img'
                   style={{
                     width: '100%',
